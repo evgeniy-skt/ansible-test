@@ -1,0 +1,13 @@
+version: '3'
+services:
+  centos7:
+    image: evgeniyskt/centos:centos7.9.2009
+    container_name: centos7
+    restart: unless-stopped
+    entrypoint: "sleep infinity"
+
+  centos72:
+    image: evgeniyskt/centos:centos7.9.2009
+    container_name: centos72
+    restart: unless-stopped
+    entrypoint: "sleep infinity"
